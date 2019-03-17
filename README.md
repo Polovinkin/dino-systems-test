@@ -41,22 +41,19 @@ During the assignment, I learned several new things:
 **Task 3 - Top 10: Users with highest charges, and daily distribution for each of them**
 For that task I understood that I needed to find those people, who in fact talked the most to the people outside of *numbers* table on outgoing calls. So I've made a query filtering that users out - https://imgur.com/a/dLjexTE . 
 
-So the answer should be:
-user_id name        charged_total
-46376	  Undefined	  9.40
-6677	  Undefined  	9.08
-4763	  Undefined  	7.76
-98821	  Undefined  	7.52
-63638	  Undefined  	7.40
-16963  	Tom       	7.16
-94076  	Undefined	  7.00
-60889  	Undefined	  6.76
-38210	  Olga	      6.56
-50480	  Undefined  	6.52
+So the answer should be: 
+
+| user_id  | name | seconds_talked |
+| --- | --- | --- |
+| 46376 | Undefined | 9.40 | 
+| 6677 | Undefined | 9.08 | 
+| 4763 | Undefined | 7.76 | 
+| 98821 | Undefined | 7.52 | 
+| 63638 | Undefined | 7.40 | 
+| 16963	| Tom |	7.16 | 
+| 94076	| Undefined | 7.00 | 
+| 60889	| Undefined | 6.76 | 
+| 38210 | Olga	| 6.56 | 
+| 50480	| Undefined	| 6.52 | 
 
 I didn't understand how to make daily distribution, because all of the events in *call_logs* happened on the same day in span of something like 4 minutes 2019-03-07 17:36:52 to 2019-03-07 17:44:03.. I double checked amount of rows for errors, but either way there are 999 rows with that information overall.
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
