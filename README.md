@@ -5,6 +5,16 @@ During the assignment, I learned several new things:
 2) Learned how to create databases and upload data into them.
 3) Figured out database structure and learned new methods in MySQL such as *timestampdiff, ifnull*
 
+**Database structure**
+The database consists of 5 tables.
+The picture of them:
+![Imgur](https://i.imgur.com/5fA75yy.png)
+1) *accounts* table consists of userid's and corresponding names.
+2) *call_forwarding* table consist of pair of numbers, when 1st number is called, the call is forwarded to the 2nd number.
+3) *call_logs* is the most informative table of database and consists of cal logs, who called whom, for how long they were talking, was in a incoming of outcoming call for particular user_id.
+4) *rates* describes the amoung of money it costs for user to call somebody, in out case its 0,04 for utgoing calls to phone numbers which are not in the Numbers table
+5) And finally, *numbers* is a table with pairs of user id's and corresponding phone numbers.
+
 **Task 1 - Total Expenses**
 1) Made a query which returned amount of seconds during calls of people who called somebody - ![Imgur](https://i.imgur.com/V7Go66h.png)
 2) The calls are free for outgoing calls to phone numbers from Numbers table, so I filtered those people out, leaving only those who are not in that table - ![Imgur](https://i.imgur.com/2PYf9Mr.png)
