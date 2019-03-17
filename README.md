@@ -7,10 +7,10 @@ During the assignment, I learned several new things:
 
 **Task 1 - Total Expenses**
 1) Made a query which returned amount of seconds during calls of people who called somebody - ![Imgur](https://i.imgur.com/V7Go66h.png)
-2) The calls are free for outgoing calls to phone numbers from Numbers table, so I filtered those people out, leaving only those who are not in that table - ![1-1](https://imgur.com/a/b2Y7SxG)
+2) The calls are free for outgoing calls to phone numbers from Numbers table, so I filtered those people out, leaving only those who are not in that table - ![Imgur](https://i.imgur.com/2PYf9Mr.png)
 
-3) Made a sum of all seconds of all calls I've gotten - https://imgur.com/a/GZILgyA
-4) And finally, multiplied that number of seconds by 0.04, for us to get total amount of expenses - https://imgur.com/a/aaHFci7 .
+3) Made a sum of all seconds of all calls I've gotten - ![Imgur](https://i.imgur.com/aeDfg5T.png)
+4) And finally, multiplied that number of seconds by 0.04, for us to get total amount of expenses - ![Imgur](https://i.imgur.com/bpjW4t7.png) 
 
 *So the answer to that question should be **150.76**, whatever it may be, rubles or dollars.*
 
@@ -18,9 +18,9 @@ During the assignment, I learned several new things:
 
 **Task 2 - Top 10 most active users**
 1) As most active I see people who spent the largest amount of time talking, would it be incoming calls or outcoming.
-2) For us to count how many minutes each distinct user spent talking, I'm grouping call_logs by User ID, and make a sum of minutes each of them talked, sorting them already and limiting result by 10 - https://imgur.com/a/Y3OYPjf .
-3) After that, for us to get the names of users, we just need to join *call_logs* table and *users* table - https://imgur.com/a/J6fxt77
-4) **But** it's not finished! After I joined that tables, I decided to double-check the results, and that was right - results were changed, there were another people in top-10 with the names, and I realised that there can be users who are not in users table, we dont have their names. So I changed my query, making it a left join, and added the IFNULL to set a placeholder for nulls in names - https://imgur.com/a/UhTQz70 . (I decided to add that part for company to see my thought process).
+2) For us to count how many minutes each distinct user spent talking, I'm grouping call_logs by User ID, and make a sum of minutes each of them talked, sorting them already and limiting result by 10 - ![Imgur](https://i.imgur.com/aZCOlUD.png) .
+3) After that, for us to get the names of users, we just need to join *call_logs* table and *users* table - ![Imgur](https://i.imgur.com/Ah3m9cJ.png)
+4) **But** it's not finished! After I joined that tables, I decided to double-check the results, and that was right - results were changed, there were another people in top-10 with the names, and I realised that there can be users who are not in users table, we dont have their names. So I changed my query, making it a left join, and added the IFNULL to set a placeholder for nulls in names - ![Imgur](https://i.imgur.com/gLjrZTe.png) . (I decided to add that part for company to see my thought process).
 
 **So the answer for "Who is top 10 most active users?" is:**
 
@@ -40,7 +40,7 @@ During the assignment, I learned several new things:
 -------
 
 **Task 3 - Top 10: Users with highest charges, and daily distribution for each of them**
-For that task I understood that I needed to find those people, who in fact talked the most to the people outside of *numbers* table on outgoing calls. So I've made a query filtering that users out - https://imgur.com/a/dLjexTE . 
+For that task I understood that I needed to find those people, who in fact talked the most to the people outside of *numbers* table on outgoing calls. So I've made a query filtering that users out - ![Imgur](https://i.imgur.com/4KU0b73.png) . 
 
 So the answer should be: 
 
