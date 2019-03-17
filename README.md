@@ -3,7 +3,7 @@
 During the assignment, I learned several new things:
 1) I got and idea of MySQL usage and learned how to configure and setup it (only used Oracle SQL Developer before).
 2) Learned how to create databases and upload data into them.
-3) Figured out database structure and learned new methods in MySQL such as *timestampdiff*
+3) Figured out database structure and learned new methods in MySQL such as *timestampdiff, ifnull*
 
 **Task 1 - Total Expenses**
 1) Made a query which returned amount of seconds during calls of people who called somebody - https://imgur.com/a/szFN79G
