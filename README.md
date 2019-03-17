@@ -7,7 +7,7 @@ During the assignment, I learned several new things:
 
 **Task 1 - Total Expenses**
 1) Made a query which returned amount of seconds during calls of people who called somebody - https://imgur.com/a/szFN79G
-2) The calls are free for outgoing calls to phone numbers from Numbers table, so I filtered those people out, leaving only those who are not in that table - https://imgur.com/a/b2Y7SxG [screenshot 1](pictures/1-1.png)
+2) The calls are free for outgoing calls to phone numbers from Numbers table, so I filtered those people out, leaving only those who are not in that table - https://imgur.com/a/b2Y7SxG [https://github.com/Polovinkin/ds-test/blob/master/pictures/1-1.png]
 3) Made a sum of all seconds of all calls I've gotten - https://imgur.com/a/GZILgyA
 4) And finally, multiplied that number of seconds by 0.04, for us to get total amount of expenses - https://imgur.com/a/aaHFci7 .
 
