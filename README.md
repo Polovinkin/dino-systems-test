@@ -11,4 +11,6 @@ Task 1 - Total Expenses
 3) Made a sum of all seconds of all calls I've gotten - https://imgur.com/a/GZILgyA
 4) And finally, multiplied that number of seconds by 0.04, for us to get total amount of expenses - https://imgur.com/a/aaHFci7 .
 
+*So the answer to that question should be **150.76** whatever it may be, rubles or dollars.
+
 Task 2 - Top 10 most active users
