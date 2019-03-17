@@ -1,4 +1,4 @@
-**Test task for *Dino Systems* (March 2019)*
+**Test task for *Dino Systems* (March 2019)**
 
 During the assignment, I learned several new things:
 1) I got and idea of MySQL usage and learned how to configure and setup it (only used Oracle SQL Developer before).
