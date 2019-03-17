@@ -53,3 +53,8 @@ user_id name        charged_total
 50480	  Undefined  	6.52
 
 I didn't understand how to make daily distribution, because all of the events in *call_logs* happened on the same day in span of something like 4 minutes 2019-03-07 17:36:52 to 2019-03-07 17:44:03.. I double checked amount of rows for errors, but either way there are 999 rows with that information overall.
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
