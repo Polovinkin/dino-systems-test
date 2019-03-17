@@ -6,7 +6,7 @@ During the assignment, I learned several new things:
 3) Figured out database structure and learned new methods in MySQL such as *timestampdiff, ifnull*
 
 **Task 1 - Total Expenses**
-1) Made a query which returned amount of seconds during calls of people who called somebody - https://imgur.com/a/szFN79G
+1) Made a query which returned amount of seconds during calls of people who called somebody - ![Imgur](https://i.imgur.com/V7Go66h.png)
 2) The calls are free for outgoing calls to phone numbers from Numbers table, so I filtered those people out, leaving only those who are not in that table - ![1-1](https://imgur.com/a/b2Y7SxG)
 
 3) Made a sum of all seconds of all calls I've gotten - https://imgur.com/a/GZILgyA
