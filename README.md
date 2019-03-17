@@ -43,7 +43,7 @@ For that task I understood that I needed to find those people, who in fact talke
 
 So the answer should be: 
 
-| user_id  | name | seconds_talked |
+| user_id  | name | highest_charges |
 | --- | --- | --- |
 | 46376 | Undefined | 9.40 | 
 | 6677 | Undefined | 9.08 | 
