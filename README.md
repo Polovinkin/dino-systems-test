@@ -1,6 +1,8 @@
-Тестовое задание для компании Dino Systems
+Test task for Dino Systems (March 2019)
 
-Во время выполнения этого задания, я:
-1) В первый раз самостоятельно установил и настроил сервер MySQL на компьютере (до этого работал только в Oracle SQL Developer)
-2) Научился самостоятельно создавать базу данных MySQL и заливать в нее данные
-3) 
+During the assignment, I learned several new things:
+1) Learned how to configure and got and idea of MySQL usage (only used Oracle SQL Developer before).
+2) Learned how to create databases and upload data into them.
+3) Figured out database structure
+
+Task 1 - Total Expenses
