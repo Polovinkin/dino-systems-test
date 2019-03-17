@@ -22,23 +22,19 @@ During the assignment, I learned several new things:
 4) **But** it's not finished! After I joined that tables, I decided to double-check the results, and that was right - results were changed, there were another people in top-10 with the names, and I realised that there can be users who are not in users table, we dont have their names. So I changed my query, making it a left join, and added the IFNULL to set a placeholder for nulls in names - https://imgur.com/a/UhTQz70 . (I decided to add that part for company to see my thought process).
 
 **So the answer for "Who is top 10 most active users?" is:**
-| user_id  | name | seconds_talked |
-| ------------- | ------------- | ------------- |
-| 45492	 |  Undefined	 |  899 | 
-| 22719	 |  Alex	     |  866| 
-| 40156	 |  Roman	     |  820| 
-| 33998	 |  Undefined	| |   740| 
-| 19047	 |  Timmy	    |   694| 
-| 28866	 | |  Undefined |  	616| 
-| 29936	|   Alex	     |  615| 
-| 62807	|   Undefined | 	608| 
-| 64801	 |  Undefined	 |  600| 
-| 24936	|   Undefined	 |  585| 
 
 | user_id  | name | seconds_talked |
-| ------------- | ------------- | ------------- |
-|   |   |  |
-|   |   |  |
+| --- | --- | --- |
+| 45492 | Undefined | 899 | 
+| 22719 | Alex | 866 | 
+| 40156 | Roman | 820 | 
+| 33998 | Undefined | 740 | 
+| 19047 | Timmy | 694 | 
+| 28866	| Undefined |	616 | 
+| 29936	| Alex | 615 | 
+| 62807	| Undefined | 608 | 
+| 64801 | Undefined	| 600 | 
+| 24936	| Undefined	| 585 | 
 
 -------
 
